@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demoPurpose">
+    package="com.mantra">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.SplashScreenActivity"
+            android:name="com.mantra.activity.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.HomePageActivity"
+            android:name="com.mantra.activity.HomePageActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activity.SignInActivity"
+            android:name="com.mantra.activity.SignInActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activity.SignUpActivity"
+            android:name="com.mantra.activity.SignUpActivity"
             android:windowSoftInputMode="adjustPan" />
 
     </application>

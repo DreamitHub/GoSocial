@@ -17,10 +17,5 @@
             android:icon="@drawable/ic_notifications_24"
             android:title="@string/nofication" />
 
-        <item
-            android:id="@+id/bottom_account"
-            android:icon="@drawable/ic_account_circle_24"
-            android:title="@string/account" />
-
     </group>
 </menu>
