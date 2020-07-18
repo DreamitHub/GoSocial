@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="0.9dp"
+        android:padding="@dimen/dp_4"
+        android:text="Information We Do Not Collect
+
+We do not collect any Sensitive Personal Data or information such as password related to other services, financial information such as bank account or credit card or debit card or other payment instrument details, physical, physiological and mental health condition, sexual orientation, medical records and history, or biometric information.
+
+How We Use Information
+
+We may use all the information we have to help us operate, provide, improve, understand, customize, support, and market Go Social.
+
+Updates To Our Policy
+
+We may amend or update this Policy. We will provide you notice of amendments to this Policy, as appropriate, and update the “Last Modified” date at the top of this Policy. Your continued use of Go Social confirms your acceptance of this Policy, as amended. If you do not agree with or accept this Policy, as amended, you must stop using Go Social. Please review our Privacy Policy from time to time.
+
+Contact Us
+If you have questions about this Policy, email at help@gosocial.com"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+</RelativeLayout>
